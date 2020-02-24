@@ -1,0 +1,88 @@
+{
+  "id": "c7e91f00-ce75-4b41-b3b3-30df70e0fbf2",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Welcome to  Rajat Goyal\u0027s introduction.You can ask about my skills, qualifications, and many more things.\n You can Check out my website by clicking the suggestion link below",
+          "ssml": "",
+          "displayText": "Hii!, Welcome to  Rajat Goyal\u0027s introduction.\nYou can ask about my skills, qualifications, and many more things.\nAnd also you can check out my website by clicking the suggestion link below."
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Degree"
+            },
+            {
+              "title": "University"
+            },
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Address"
+            },
+            {
+              "title": "Qualifications"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "destinationName": "HackRx",
+          "url": "https://hackrx.github.io/Portfolio"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

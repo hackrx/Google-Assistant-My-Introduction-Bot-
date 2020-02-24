@@ -1,0 +1,74 @@
+{
+  "id": "5c1ba434-52a9-4ebc-820c-4ce8bbf06f05",
+  "name": "University",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Currently I am studying at Chandigarh University.What else, you want to know",
+          "ssml": "",
+          "displayText": "Currently I am studying at Chandigarh University.What else you want to know?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Degree"
+            },
+            {
+              "title": "Certificates"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Qualifications"
+            },
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Address"
+            }
+          ]
+        },
+        {
+          "type": "link_out_chip",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "destinationName": "Hackrx",
+          "url": "https://hackrx.github.io/Portfolio"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

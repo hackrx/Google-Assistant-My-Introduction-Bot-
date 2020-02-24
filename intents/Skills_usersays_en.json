@@ -1,0 +1,38 @@
+[
+  {
+    "id": "37e347f5-b717-45ab-9886-91d13e8f786f",
+    "data": [
+      {
+        "text": "tell me about your skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "306daddf-9624-49c6-bed0-7ea2b3b290ae",
+    "data": [
+      {
+        "text": "Skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "39e13473-765d-451d-a87b-ea9045ad3e4d",
+    "data": [
+      {
+        "text": "What are your Skills",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

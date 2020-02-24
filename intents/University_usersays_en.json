@@ -1,0 +1,26 @@
+[
+  {
+    "id": "a69d1c11-b53c-43ce-ab9d-2de27c02438c",
+    "data": [
+      {
+        "text": "in which university you are currently pursing degree?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "049156d4-89d7-489d-b561-167e272a8fbf",
+    "data": [
+      {
+        "text": "University name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

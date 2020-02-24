@@ -1,0 +1,94 @@
+{
+  "id": "fbdd67db-9f93-4e6d-990d-c20428cac16e",
+  "name": "Address",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "I live in Neckchand Hostel ,Room nuber 521. Chandigarh University,Mohalli",
+          "ssml": "",
+          "displayText": "NC-3 Hostel, Room no. 521.Chandigarh University,Mohalli"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "NC Hostel",
+          "subtitle": "Nakchand Hostel",
+          "formattedText": "Boys Hostel",
+          "image": {
+            "url": "https://lh5.googleusercontent.com/p/AF1QipPGPsN3flHWchWSrTMyhTYoboBmxpHWQdMfLW8Z\u003dw408-h306-k-no",
+            "accessibilityText": "NC Hostel"
+          },
+          "buttons": [
+            {
+              "title": "Navigate",
+              "openUrlAction": {
+                "url": "https://goo.gl/maps/vPRRuqjZxG44NMPP8",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Is there is anything else you want to know about me?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Qualification"
+            },
+            {
+              "title": "University"
+            },
+            {
+              "title": "Developer?"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

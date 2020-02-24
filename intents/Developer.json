@@ -1,0 +1,94 @@
+{
+  "id": "cb8b9721-8566-4563-9814-6ee718ec8c80",
+  "name": "Developer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Hey! I am Rajat Goyal",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "image": {
+            "url": "https://media-exp1.licdn.com/dms/image/C5103AQFutAu36IKrZg/profile-displayphoto-shrink_200_200/0?e\u003d1586995200\u0026v\u003dbeta\u0026t\u003d6x6IX0A50pC8LwC8MHHmG6neIsFo1iOf_M3VtXi1N8M",
+            "accessibilityText": "Rajat goyal"
+          },
+          "buttons": [
+            {
+              "title": "Tap to visit Linked In profile",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/in/rajat-goyal-a8735b169/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Is there anything else you want to know about me?",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Address"
+            },
+            {
+              "title": "Qualifications"
+            },
+            {
+              "title": "University"
+            },
+            {
+              "title": "Education"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

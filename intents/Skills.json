@@ -1,0 +1,63 @@
+{
+  "id": "b3025c4c-0931-4799-8714-e9bbf2d7a06a",
+  "name": "Skills",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "I am good at C++, Java programming language, Data Structure and \nAlso, I have made a small project \u0027Spider web\u0027 based on web development during my instituational training.What else you would like to know about me?",
+          "ssml": "",
+          "displayText": "I am good at C++, Java programming language, Data Structure and \nAlso, I have made a small project \u0027Spider web\u0027 based on web development during my industrial training.\nWhat else you would like to know about me?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "University"
+            },
+            {
+              "title": "Degree"
+            },
+            {
+              "title": "Developer"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

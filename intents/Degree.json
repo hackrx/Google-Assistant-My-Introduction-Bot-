@@ -1,0 +1,90 @@
+{
+  "id": "91dc92b5-dabe-425a-805d-836f067d95ba",
+  "name": "Degree",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Currently I am pursuing B-tech in Chandigarh University.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Chandigarh University",
+          "subtitle": "Asia\u0027s fastest growing university.",
+          "image": {
+            "url": "https://static.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/326/2018/5/29/Chandigarh-University-Chandigarh3.jpg",
+            "accessibilityText": "Chandigarh University"
+          },
+          "buttons": [
+            {
+              "title": "https://www.cuchd.in/",
+              "openUrlAction": {
+                "url": "https://www.cuchd.in/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "What else can i help you with",
+          "ssml": "",
+          "displayText": "What else can i help you with?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Certificates"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Address"
+            },
+            {
+              "title": "Developer"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

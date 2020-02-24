@@ -1,0 +1,60 @@
+{
+  "id": "fc7059ab-b0a3-4ec1-8e7d-20fcaa92ed95",
+  "name": "Certifications",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "These are my skills and interests.What else can i help you with",
+          "ssml": "",
+          "displayText": "I have learned various languages like C++, Java, Python. And also I have learned HTML, CSS, JavaScript, PHP. Enthusiast to learn Machine Learning.Highly passionate about Cyber Security.\nWhat else can I help you with?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Qualifications"
+            },
+            {
+              "title": "University"
+            },
+            {
+              "title": "Developer"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

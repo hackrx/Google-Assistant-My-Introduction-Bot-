@@ -1,0 +1,91 @@
+{
+  "id": "6ec4bb50-5e64-4eff-9e95-a96ccefd6d7e",
+  "name": "Qualifications",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "I am pursuing B.Tech with CSE Branch from Chandigarh University,Mohali.\nI have done my high school from S.L.V School,Paota.Dist:-Jaipur,Rajasthan.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "image": {
+            "url": "https://static.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/326/2018/5/29/Chandigarh-University-Chandigarh3.jpg",
+            "accessibilityText": "Chandigarh University"
+          },
+          "buttons": [
+            {
+              "title": "Visit Site",
+              "openUrlAction": {
+                "url": "http://www.cuchd.in/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "What else would you like to know",
+          "ssml": "",
+          "displayText": "What else would you like to know?"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Certifications"
+            },
+            {
+              "title": "Skills"
+            },
+            {
+              "title": "Address"
+            },
+            {
+              "title": "Developer"
+            },
+            {
+              "title": "Room mates"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
